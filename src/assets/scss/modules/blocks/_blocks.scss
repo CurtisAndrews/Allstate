@@ -1,0 +1,41 @@
+.blocks {
+	margin: -20px 0 0 -20px;
+	font-size: 0;
+}
+
+.blocks > * {
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px 0 0 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.blocks_2up > * {
+	width: 50%;
+}
+
+.blocks_3up > * {
+	width: 33.33%;
+}
+
+.blocks_700 {
+	width: 720px;
+}
+
+.blocks_700-hd {
+	display: block;
+	margin: 0 0 20px 0;
+}
+
+.blocks_380 {
+	width: 400px;
+}
+
+.blocks_300 {
+	width: 320px;
+}
+
+.blocks_220 {
+	width: 240px;
+}

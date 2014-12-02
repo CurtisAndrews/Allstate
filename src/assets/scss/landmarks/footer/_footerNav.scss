@@ -1,0 +1,33 @@
+.hList_footer {
+	font-size: 10px;
+	line-height: 10px;
+	font-weight: bold;
+	color: #58595b;
+	text-shadow: #ffffff 1px 1px;
+	text-align: center;
+}
+
+.hList_footer > * {
+	position: relative;
+}
+
+.hList_footer > *:after {
+	content: "|";
+	position: absolute;
+	right: 0;
+}
+
+.hList_footer > *:last-of-type:after {
+	content: " ";
+}
+
+.hList_footer > * > * {
+	padding: 0 28px;
+	color: #58595b;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.hList_footer > * > *:hover {
+	color: #e67e22;
+}

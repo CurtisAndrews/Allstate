@@ -1,0 +1,11 @@
+.vList {
+    display: inline-block;
+    vertical-align: top;
+}
+.vList > * {
+    display: block;
+}
+
+.vList > * + * {
+    
+}

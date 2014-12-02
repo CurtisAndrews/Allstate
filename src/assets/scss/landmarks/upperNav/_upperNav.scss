@@ -1,0 +1,169 @@
+.upperNav {
+    padding: 1px 0 0 0;
+    background: #00467f;
+    color:#ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.hList_upperNav > * > * {
+    display: inline-block;
+    padding: 14px 8px 10px 13px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+    -webkit-transition: ease-in-out 0.3s;
+}
+
+.megaMenu,
+.hList_upperNav-more {
+    background-color: #0096d6;
+}
+
+.hList_upperNav-more {
+    padding-right: 44px;
+    position: relative;
+}
+
+.hList_upperNav-more:after {
+    content: " ";
+    width: 29px;
+    height: 31px;
+    border-left:1px solid rgba(20,70,126,0.2);
+    position: absolute;
+    top: 3px;
+    right: 0;
+    background:url("../../assets/media/images/menuCarat.png") no-repeat 50% 50%;
+}
+
+.megaMenu {
+    position: absolute;
+    width: 562px;
+    padding: 21px 25px 22px 23px;
+    left: -9999px;
+    text-align:left;
+    -webkit-transition: opacity ease-in-out 0.2s;
+    transition: opacity ease-in-out 0.3s;
+    opacity: 0;
+    box-shadow: rgba(0,0,0,0.32) 0 2px 2px 0;
+    z-index: 500;
+}
+
+.megaMenu-hd{
+    margin: 0 0 24px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hList_upperNav-more:hover .megaMenu {
+    left:0;
+    opacity: 100;
+}
+
+.vList_iconList{
+    width: 100%;
+    display: table;
+}
+
+.vList_iconList > * {
+    display: table-row;
+}
+
+.vList_iconList > *:after{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #33abde;
+}
+
+.vList_iconList > *:last-of-type:after{
+    border-bottom: none;
+}
+
+.vList_iconList > * > * {
+    padding: 13px 0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.vList_iconList > * > *:hover {
+    color: #00467f;
+}
+
+.vList_iconList-icon,
+.vList_iconList-text{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.vList_iconList-icon{
+    width: 37px;
+    height: 100%;
+    text-align: center;
+}
+
+.vList_iconList-text{
+    width: 121px;
+    padding: 12px 0 10px 0;
+}
+
+.icon{
+    display: inline-block;
+}
+
+.icon_auto {
+    width: 23px;
+    height: 8px;
+}
+
+.icon_home {
+    width: 19px;
+    height: 16px;
+}
+
+.icon_renters {
+    width: 22px;
+    height: 11px;
+}
+
+.icon_life {
+    width: 13px;
+    height: 18px;
+}
+
+.icon_condo {
+    width: 12px;
+    height: 18px;
+}
+
+.icon_motorcycle {
+    width: 21px;
+    height: 14px;
+}
+
+.icon_boat {
+    width: 23px;
+    height: 7px;
+}
+
+.icon_business {
+    width: 18px;
+    height: 12px;
+}
+
+.icon_atv {
+    width: 21px;
+    height: 11px;
+}
+
+.icon_more {
+    width: 17px;
+    height: 11px;
+}
+
+.icon_agent {
+    width: 14px;
+    height: 14px;
+}

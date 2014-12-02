@@ -1,0 +1,56 @@
+body{
+	font-size: 14px;
+	line-height: 16px;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    color: #454649; 
+}
+
+/* trololol
+*{
+	cursor: wait !important; 
+} */
+
+p:last-of-type{
+	margin: 0;
+}
+
+p:last-of-type:after{
+	content: " ";
+	display: table;
+	clear:both;
+	}
+
+p,
+p:first-of-type{
+	margin: 0 0 15px 0;
+}
+
+h2{
+	margin: 0 0 15px 0;
+	color: #1666af;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+svg{
+	display:inline-block;
+}
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.wrapper{
+	padding: 35px 0 0 0;
+	background: url("../../assets/media/images/background.jpg") no-repeat;
+    background-size: cover;
+}
+
+.btn{
+	display: inline-block;
+	padding: 13px;
+	background: #e67e22;
+	color: #ffffff;
+	text-decoration: none;
+}

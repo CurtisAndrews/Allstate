@@ -1,0 +1,17 @@
+.hList > * {
+    display: inline-block;
+}
+
+.hList-item:last-of-type {
+    padding-right: 0;
+}
+
+.hList:after,
+.hList:before {
+    content: " ";
+    display: table;
+}
+
+.hList:after {
+    clear:both;
+}
