@@ -1,0 +1,78 @@
+.card{
+	margin: 0 0 20px 0;
+	position: relative;
+	background: #ffffff;
+}
+
+.card-hd {
+	background: #1666af;
+	padding: 13px 15px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.card-bd {
+	padding: 20px;
+}
+
+.card_brand .card-hd {
+	background: #0096d6;
+}
+
+.card_border {
+	padding: 5px;
+}
+
+.card_border .card-bd {
+	border: 1px solid #aecae3;
+	text-align: center;
+}
+
+.card_tip:before,
+.card_tip:after,
+.card_shadow:before,
+.card_shadow:after {
+	content: " ";
+	position: absolute;
+}
+
+.card_tip:before,
+.card_tip:after {
+	margin-left: 44%;
+}
+
+.card_tip:before {
+	width: 24px;
+	height: 3px;
+	top: 5px;
+	background: #ffffff;
+}
+
+.card_tip:after {
+	width: 28px;
+	height: 27px;
+	top: -13px;
+	background: url("../../assets/media/images/layout/pushpin.png") no-repeat 50% 50%;
+}
+
+.card_tip .card-bd {
+	border-color: #c3e4be;
+}
+
+.card_shadow:after {
+	position: absolute;
+	top: 0;
+	right: -10px;
+    width: 10px;
+    height: 160px;
+    background: url("../../assets/media/images/layout/stories-after.png");
+}
+
+.card_shadow:before {
+	position: absolute;
+	bottom: -11px;
+	left: -9px;
+	width: 130px;
+	height: 158px;
+	background: url("../../assets/media/images/layout/stories-before.png");
+}

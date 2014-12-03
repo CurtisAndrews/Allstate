@@ -1,0 +1,33 @@
+.faq-question{
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #d7dce0;
+	position: relative;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.faq-question:after {
+	content: " ";
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	right: 0;
+	bottom: 14px;
+	background: url("../../assets/media/images/layout/arrow.png") no-repeat;
+}
+
+.faq-active:after {
+	background-position: -8px;
+}
+
+.faq-question:first-of-type {
+	padding-top: 0;
+	border: none;
+}
+
+.faq-answer{
+	margin: 0 0 10px 0;
+	font-size: 12px;
+	line-height: 13px;
+	display: none;
+}

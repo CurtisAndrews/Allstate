@@ -1,0 +1,37 @@
+.pump {
+	font-size: 11px;
+	line-height: 11px;
+}
+
+.pump:after,
+.pump:before {
+	content: " ";
+	display: table;
+}
+
+.pump:after {
+	clear: both;
+}
+
+.pump-img {
+	float: left;
+	border-right: 1px solid #d7dce0;
+	margin: 0 10px 0 0;
+}
+
+.pump-price {
+	margin-top: 8px;
+}
+
+.pumpSearch{
+
+}
+
+.pumpSearch-label {
+	display: none;
+}
+
+.pumpSearch-input {
+	width: 131px;
+	margin-bottom: 15px;
+}

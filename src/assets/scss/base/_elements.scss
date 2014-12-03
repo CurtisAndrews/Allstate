@@ -10,21 +10,6 @@ body{
 	cursor: wait !important; 
 } */
 
-p:last-of-type{
-	margin: 0;
-}
-
-p:last-of-type:after{
-	content: " ";
-	display: table;
-	clear:both;
-	}
-
-p,
-p:first-of-type{
-	margin: 0 0 15px 0;
-}
-
 h2{
 	margin: 0 0 15px 0;
 	color: #1666af;
@@ -53,4 +38,9 @@ svg{
 	background: #e67e22;
 	color: #ffffff;
 	text-decoration: none;
+	transition: ease-in-out 0.3s;
+}
+
+.btn:hover {
+	background: #0096d6;
 }

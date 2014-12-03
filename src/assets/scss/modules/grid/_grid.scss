@@ -1,0 +1,41 @@
+.grid {
+}
+
+.grid:after,
+.grid:before {
+    content: " ";
+    display: table;
+}
+
+.grid:after {
+    clear:both;
+}
+
+.grid-col {
+	float: left;
+	box-sizing: border-box;
+}
+
+.grid-col + .grid-col {
+	padding-left: 20px;
+}
+
+.grid-col_1of12 { width: 8.33%; }
+.grid-col_2of12 { width: 16.66%; }
+.grid-col_3of12 { width: 25%; }
+.grid-col_4of12 { width: 33.33%; }
+.grid-col_5of12 { width: 41.66%; }
+.grid-col_6of12 { width: 50%; }
+.grid-col_7of12 { width: 58.33%; }
+.grid-col_8of12 { width: 66.66%; }
+.grid-col_9of12 { width: 75%; }
+.grid-col_10of12 { width: 83.33%; }
+.grid-col_11of12 { width: 91.66%; }
+.grid-col_12of12 { width: 100%; }
+
+/* card, not stories, more generic
+make card_shadow
+make card_border
+put padding on card-bd 
+update the grid instead of that blocks thing I tried to do
+	fudge the numbers to make it fit in the grid */
